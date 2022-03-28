@@ -20,4 +20,33 @@ header a {
     letter-spacing: 1px;
     font-size: 24px;
     font-weight: 400;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 3px 13px;
+}
+
+.ftitle {
+    text-align: center;
+    color: purple;
+    margin-bottom: 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid purple;
+    margin: 1rem;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+}
+
+.product-info {
+    padding: 1rem;
 }
